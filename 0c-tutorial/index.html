@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutorial</title>
+    <link href="../stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <div class="main-text">
+      
+      <h1>tutorial_</h1>
+      <div style="color:grey; font-style: italic;">. the_key_is_123456_</div>
+      <br>
+      <input style="color:#F0F3FF; background-color: #17153B;" type='text' value='' placeholder="enter_key_" id='input'>
+      <br>
+      <br>
+      <div class="list">
+        <button class="submit" onclick="protectpasscode()">submit</button>
+      </div>
+      
+      <br>
+      <d id="content1" style="display:none;">
+        <div class="list">clue given in this tutorial is "DIVISI KOMPUTER"</div>
+        <div class="list">click something in link given below that relates to the given clue</div>
+        
+        <br>
+        <div class="list ">
+          <a href="./hme.html" target=”_blank”>. <c class="entry">click_this_link_</c></a>
+        </div>
+      </d>
+
+      <e id="content1x" style="display:none;color:red;font-style: italic;">
+        <div>. enter_the_right_key_!_</div>
+      </e>
+      
+      <script>
+        function protectpasscode() {
+           var a = document.getElementById('input');
+           var b = document.getElementById('content1');
+           var c = document.getElementById('content1x');
+           if (a.value === '123456') {
+              b.style.display = 'block';
+              c.style.display = 'none';
+           } else {
+              b.style.display = 'none';
+              c.style.display = 'block';
+           }
+        }
+     </script>
+
+
+      <br>
+      <div class="list">
+        <a href="../">. back_</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final Step</title>
+    <link href="../stylesheet.css" rel="stylesheet" />
+  </head>
+  <body id="bgg" style="margin-top:10vh;margin-bottom:10vh;">
+    
+    <div class="main-text">
+      
+      
+      <h1>final_step_</h1>
+
+      <input style="color:#F0F3FF; background-color: #17153B;" type='text' value='' placeholder="enter_key_" id='input'>
+      <br>
+      <br>
+      <div class="list">
+        <button class="submit" onclick="protectpasscode()">submit</button>
+      </div>
+      
+      <br>
+      <d id="content1" style="display:none;">
+        <div class="list"><img src="./flag.gif"></div>
+        <div class="list" style="font-weight:bold;">. congratulations! </div>
+        <div class="list" style="color:#15F5BA;font-weight:bolder;">. WE_CAPTURED_THE_FLAG_!_!_!_</div>
+        <div class="list">. thank you for playing the game!</div>
+        <div class="list">. we will update the leaderboards soon!</div>
+
+        <br>
+        <div class="list ">
+          <a href="../0a-leaderboards" target=”_blank”>. <c class="entry">go_to_leaderboards_</c></a>
+        </div>
+      </d>
+
+      <e id="content1x" style="display:none;color:red;font-style: italic;">
+        <div>. enter_the_right_key_!_</div>
+      </e>
+      
+      <script>
+        function protectpasscode() {
+           var a = document.getElementById('input');
+           var b = document.getElementById('content1');
+           var c = document.getElementById('content1x');
+           var d = document.getElementById('bgg');
+           if (a.value === 'uaKm-pn4M-5fEp-23zx') {
+              b.style.display = 'block';
+              c.style.display = 'none';
+              d.style.backgroundImage = 'linear-gradient(30deg, #17153B, #836FFF)';
+           } else {
+              b.style.display = 'none';
+              c.style.display = 'block';
+           }
+        }
+     </script>
+
+
+      <br>
+      <div class="list">
+        <a href="../">. back_</a>
+      </div>
+    </div>
+  </body >
+</html>

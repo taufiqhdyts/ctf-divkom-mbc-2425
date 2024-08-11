@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  display: flex;
+  background-color: #17153B;
+  color: #F0F3FF;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.main-text {
+  width: 600px;
+}
+
+.hidden-text {
+  color: #17153B;
+}
+
+.hidden-step {
+  position: absolute;
+  padding: 150px 0px;;
+}
+
+.list {
+  padding: 4px 0px;
+}
+
+.entry {
+  color: #15F5BA;
+  font-style: italic;
+}
+
+.flag {
+  color: #15F5BA;
+}
+
+.clue {
+  color: red;
+}
+
+.gate {
+  color: black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid #836FFF;
+  padding: 4px 8px;
+  background-color: #17153B;
+  color: #F0F3FF;
+  transition: color 200ms;
+  transition: background-color 200ms;
+}
+
+.submit:hover {
+  color: #836FFF;
+  background-color: #17153B;
+  border: 2px solid #836FFF;
+}
+
+.ctrla {
+  transition: color 200ms;
+}
+
+.ctrla:hover {
+  color: red;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #F0F3FF;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: color 200ms;
+}
+
+a:hover {
+  color: #836FFF;
+}
+
